@@ -42,4 +42,11 @@ public class Persistencia {
         inicializarSucursales();
         inicializarVehiculos();
     }
+    
+    public static ArrayList<Sucursal> getSucursales() {
+
+    return sucursales;
+
+    }
+ 
 }
